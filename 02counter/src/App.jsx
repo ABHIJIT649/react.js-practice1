@@ -1,0 +1,41 @@
+import { useState } from 'react';
+// import reactLogo from './assets/react.svg'
+// import viteLogo from './vite.svg'
+import './App.css'
+
+function App() {
+
+  let [counter , AbhiCounter] = useState(15)
+
+
+
+  // let counter = 15
+
+  const addValue = () => {
+    console.log(counter);
+    // counter = counter+1
+    AbhiCounter(counter  + 1)
+  }
+
+  const removeValue = () => {
+    console.log(counter);
+    AbhiCounter(counter - 1)
+  }
+
+
+  return (
+    <>
+      <h1>chai or react</h1>
+      <h2>counter Value: {counter}</h2>
+      <button
+      onClick={addValue}
+      >Add value</button>
+      <br />
+      <button
+      onClick={removeValue}
+      >remove value</button>
+    </>
+  )
+}
+
+export default App
