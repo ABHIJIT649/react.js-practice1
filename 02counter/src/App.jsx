@@ -14,7 +14,10 @@ function App() {
   const addValue = () => {
     console.log(counter);
     // counter = counter+1
-    AbhiCounter(counter  + 1)
+    AbhiCounter(prevCounter => prevCounter+1)
+    AbhiCounter(prevCounter => prevCounter+1)
+    AbhiCounter(prevCounter => prevCounter+1)
+    AbhiCounter(prevCounter => prevCounter+1)
   }
 
   const removeValue = () => {

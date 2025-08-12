@@ -7,12 +7,12 @@ import Card from './Card'
 function App() {
   // const [count, setCount] = useState(0)
 
-  let myObj = {
-    username : "abhijit",
-    age:21
-  }
+  // let myObj = {
+  //   username : "abhijit",
+  //   age:21
+  // }
 
-  let newArr = [1, 2 , 3]
+  // let newArr = [1, 2 , 3]
 
   return (
     <>
