@@ -4,6 +4,7 @@ function Card({username , second="visit me"}) {
     console.log(username);
     return (
 
+
         <div><div className="flex flex-col items-center gap-6 p-7 md:flex-row md:gap-8 rounded-2xl">
         <div>
           <img className="size-48 shadow-xl rounded-md" alt="" src="https://tailwindcss.com/_next/static/media/cover.de1997f7.png" />
